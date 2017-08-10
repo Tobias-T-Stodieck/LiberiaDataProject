@@ -1,6 +1,4 @@
 '''
-Created on Jul 30, 2017
-
 File Name: LiberiaMapCoordParser.py
 Author:  Tobias Stodieck
 Date Created: July 7, 2017
