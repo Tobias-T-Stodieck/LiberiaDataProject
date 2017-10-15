@@ -129,8 +129,12 @@ def _get_data(soup, center_ID):
                 cell = datum.text
                 if cell.isnumeric():
                     cell = int(cell)
-                if (len(row_data) == 4):
-                    row_data[3] = row_data[3] + cell
+                #Total number of columns
+                MAX_COLS = 4
+                if (len(row_data) == MAX_COLS):
+                    #Column that contains the sum of the vote totals
+                    VOTE_COL = 3
+                    row_data[VOTE_COL] = row_data[VOTE_COL] + cell
                 else:
                     row_data.append(cell)
             df.append(row_data)
