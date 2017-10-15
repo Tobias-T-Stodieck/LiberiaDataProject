@@ -2,7 +2,7 @@
 File Name: 2011_elections_scraper.py
 Author: Tobias Stodieck
 Date Created: Sept 1, 2017
-Date Last Modified: Oct 6, 2017
+Date Last Modified: Oct 15, 2017
 Python Version: 3.6
 
 Written for the UC San Diego Economics Department
